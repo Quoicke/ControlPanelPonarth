@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Ponarth</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="content/styles/edit_item.css">
+    <link rel="stylesheet" href="content/styles/tovar_vakansii.css">
+    <link rel="stylesheet" href="content/styles/list_tovar.css">
+</head>
+
+<body>
+
+
+
+    <div class="content">
+
+        <div class="menu">menu</div>
+
+        <div class="tovar_vakansii">
+            <a class="orange" type="button" href="ListTowar.html">Товары</a>
+            <a type="button" href="ListVacancy.html">Вакансии</a>
+        </div>
+
+        <div class="button">
+            <a class="a_button" href="ListTowar.html">Всё</a>
+            <a class="a_button_white" href="AddTowar.html">Добавить</a>
+        </div>
+
+        <div class="list_tovar">
+
+            <h3>Список товаров :</h3>
+            <div class="items_tovar">
+
+                <div class="item">
+                    <div class="logo"></div>
+                    <div class="name">Название товара</div>
+                    <div class="color"></div>
+                    <button class="edit"></button>
+                    <button class="delete"></button>
+                </div>
+
+            </div>
+
+
+
+            <div class="edit_item">
+
+                <div class="selection_item">
+                    <div class="logo"></div>
+                    <div class="name">Название товара</div>
+                    <button class="delete"></button>
+                </div>
+
+                <form action="">
+                    <div class="group_form">
+                        <input class="edit_name" placeholder="Название"></input>
+                        <div></div>
+                        <input type="color" id="colorPicker" name="colorPicker" class="colorPicker">
+                    </div>
+                    <input class="edit_opisanie" placeholder="Описание"></input>
+                    <div class="file-input-wrapper">
+                        <input type="file" class="custom-file-input" id="fileInput">
+                        <div class="fake-input-text" onclick="document.getElementById('fileInput').click()">
+
+                            <div class="textInInput">
+
+                                <img src="./content/img/Icon upload .png" alt="">
+                                <h3>изменить фотографию лимонада</h3>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <button>Сохранить</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

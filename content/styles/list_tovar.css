@@ -1,0 +1,48 @@
+.item{
+    display: grid;
+    grid-template-columns: 15% 40% 15% 15% 15%;
+    height: 50px;
+    border-bottom: solid 2px #e5e5ea;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/no\ img\ available.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.color{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(131, 104, 237);
+    border:  solid 1px gray;
+    border-radius: 10px;
+}
+.edit{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Icon\ edit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+}
+.delete{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Icon\ trash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+}
+
+.list_tovar{
+    display: grid;
+    gap: 40px;
+}
+

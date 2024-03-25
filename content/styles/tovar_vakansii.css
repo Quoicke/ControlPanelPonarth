@@ -1,0 +1,43 @@
+.tovar_vakansii{
+    display: grid;
+    grid-template-columns: 25% 25%;
+}
+
+.orange{
+    color: #030303;
+    font-weight: bold;
+}
+
+.a_button{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-weight: bolder ;
+    cursor: pointer; /* Указатель при наведении */
+    transition: color 0.3s; /* Плавное изменение цвета фона */
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.a_button_white{
+    background-color:#ffffff;
+    color: black;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-weight: bolder ;
+    cursor: pointer; /* Указатель при наведении */
+    transition: color 0.3s; /* Плавное изменение цвета фона */
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    border:  solid 1px black;
+}

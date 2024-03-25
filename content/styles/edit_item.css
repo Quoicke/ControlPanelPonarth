@@ -1,0 +1,138 @@
+.selection_item {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit_item {
+    display: grid;
+    gap: 40px;
+}
+
+.edit_name {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: auto;
+    min-height: 50px auto;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.edit_opisanie {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.edit_logo {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    width: 90%;
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    /* Указатель при наведении */
+    transition: color 0.3s;
+    /* Плавное изменение цвета фона */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #000000;
+    border-radius: 17px;
+
+}
+
+.colorPicker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-image: url(../img/rainbow\ circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+form {
+    display: grid;
+    gap: 40px;
+    align-items: center;
+}
+
+.group_form {
+    display: grid;
+    grid-template-columns: 70% 14.5% 15.5%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Стили для обертки */
+.file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Стили для кнопки */
+.custom-file-input {
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    width: auto;
+    visibility: hidden;
+}
+
+/* Стили для фейкового текста */
+.fake-input-text {
+    background-color: #f6f6f6;
+    border-radius: 16px;
+    cursor: pointer;
+    gap: 20px;
+}
+
+/* Стили при наведении на фейковый текст */
+.fake-input-text:hover {
+background-color: #f6f6f6;;
+}
+
+.textInInput {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
